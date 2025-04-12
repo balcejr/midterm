@@ -1,0 +1,195 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #33bdb4; /* Vibrant color */
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4em; /* Increase font size for nav links */
+}
+
+.hero {
+    text-align: center;
+    background-color: #1487ce; /* Blue background */
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 4em; /* Increase the size of the main header */
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 2em; /* Increase the size of the paragraph text */
+}
+
+/* Global paragraph font size */
+p {
+    font-size: 1.6em; /* Adjust as needed for a larger font size */
+}
+
+.btn-primary {
+    background-color: #33bdb4;
+    color: white;
+    padding: 15px 30px; /* Increase padding for better visual appeal */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.2em; /* Increase font size for button text */
+}
+
+.featured-products {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 3em; /* Increase font size for the section title */
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product {
+    width: 45%;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: 50px;  /* Adjust the value as needed */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+
+footer p {
+    font-size: 1.5em; /* Increase footer text size */
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    font-size: 1.4em;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;  /* Add space below each input field */
+    border-radius: 8px;
+    border: 2px solid #33bdb4;
+}
+
+button[type="submit"] {
+    font-size: 1.4em;
+    padding: 15px 30px;
+    background-color: #33bdb4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Styling for Product List */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Makes it responsive */
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+}
+
+.product-item h3 {
+    font-size: 2em;
+    margin: 15px 0;
+}
+
+.product-item p {
+    font-size: 2em;
+    color: #555;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.add-to-cart {
+    background-color: #007bff; /* Blue */
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3;
+}
+
+.buy-now {
+    background-color: #ff5733; /* Orange */
+}
+
+.buy-now:hover {
+    background-color: #cc4626;
+}
+
